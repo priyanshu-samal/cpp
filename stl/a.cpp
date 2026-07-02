@@ -2,6 +2,7 @@
 #include <array>
 #include <vector>
 #include <stack>
+#include <map>
 
 using namespace std;
 
@@ -21,5 +22,10 @@ int main(){
     s.push(11);
 
     cout<<s.top();
+
+    map<int,string>m;
+    m.insert({1,"priyanshu"});
+    cout<<m.find(1);
+
     return 0;
 }
